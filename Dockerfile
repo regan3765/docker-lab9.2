@@ -16,6 +16,8 @@ ADD index.html /var/www/html/index.html
 
 RUN mkdir /testingBuild2
 EXPOSE 80
+
 ENTRYPOINT ["/usr/sbin/apache2"]
+
 CMD ["-DFOREGROUND"]
 
