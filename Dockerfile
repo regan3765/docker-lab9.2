@@ -11,6 +11,7 @@ ENV APACHE_LOG_DIR /var/log/apache2
 ENV APACHE_LOCK_DIR /var/run/apache
 ENV APACHE_PID_FILE /var/run/apache/httpd.pidRUN  
 
+RUN mkdir /TestingDockerBuildOnGTPush
 RUN mkdir /var/run/apache
 ADD index.html /var/www/html/index.html
 
